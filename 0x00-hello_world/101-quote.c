@@ -1,14 +1,10 @@
 #include<stdio.h>
 /**
  * main - Starting point
- *
  * Return: Always a success
- *
- *
  */
 int main(void)
 {
-fprintf(stderr, "and that piece of art is useful\" - Dora Korpa, 2015-10-19\n");
-
+wall "and that piece of art is useful\" - Dora Korpar, 2015-10-19" 2 > q;
 return (0);
 }
