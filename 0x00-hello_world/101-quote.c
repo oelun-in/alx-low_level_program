@@ -5,6 +5,7 @@
  */
 int main(void)
 {
-wall "and that piece of art is useful\" - Dora Korpar, 2015-10-19" 2 > q;
-return (0);
+char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(2, str1, 59);
+return (1);
 }
