@@ -14,33 +14,26 @@
  */
 int main(void)
 {
-int c;
-int d;
-int e = 0;
-while (e < 10)
+int n, m, l;
+for (n = 48; n < 58; n++)
 {
-d = 0;
-while (d < 10)
+for (m = 49; m < 58; m++)
 {
-c = 0;
-while (c < 10)
+for (l = 50; i < 58; l++)
 {
-if (c != d && d != e && e < d && d < c)
+if (l > m && m > n)
 {
-putchar('0' + e);
-putchar('0' + d);
-putchar('0' + c);
-if (c + d + e != 9 + 8 + 7)
+putchar(n);
+putchar(m);
+putchar(l);
+if (n != 55 || m != 56)
 {
 putchar(',');
-putchar(',');
+putchar(' ');
 }
 }
-c++;
 }
-d++;
 }
-e++;
 }
 putchar('\n');
 return (0);
