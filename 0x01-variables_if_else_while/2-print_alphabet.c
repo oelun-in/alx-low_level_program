@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - entry point
- * Description
+ * Description: main prints out lower case alphabet
  * Return 0
  */
 int main(void)
