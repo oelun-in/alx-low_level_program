@@ -3,18 +3,13 @@
  * main - entry point
  * Return: Always success
  */
-int main(void)
-{
 void print_alphabet(void)
 {
-char ch = 'a';
-while (ch <= 'z')
+char alpha = 'a';
+while (alpha <= 'z')
 {
-_putchar('ch');
-ch++;
+_putchar(alpha);
+alpha++;
 }
 _putchar('\n');
-}
-print_alphabet();
-return (0);
 }
