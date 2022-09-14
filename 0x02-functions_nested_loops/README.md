@@ -1,1 +1,1 @@
-this directory contains scripts using functions and loops
+# alx low level programming
