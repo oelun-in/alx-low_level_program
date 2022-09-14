@@ -12,6 +12,6 @@ n = -n;
 l = n % 10;
 if (l < 0)
 l = -l;
-_putchar(a + '0');
+_putchar(l + '0');
 return (l);
 }
